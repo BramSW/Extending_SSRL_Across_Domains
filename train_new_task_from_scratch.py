@@ -153,7 +153,7 @@ def main():
     parser.add_argument('--step1', default=80, type=int, help='nb epochs before first lr decrease')
     parser.add_argument('--step2', default=100, type=int, help='nb epochs before second lr decrease')
     parser.add_argument('--expdir', default='tmp/', help='Save folder')
-    parser.add_argument('--datadir', default='/scratch/datasets/bw462/deca/my_deca/', help='folder containing data folder')
+    parser.add_argument('--datadir', default='/data/bw462/benchmark_datasets/', help='folder containing data folder')
     parser.add_argument('--source', default='', type=str, help='Network source basedir')
     parser.add_argument('--train-batch-size', default=512, type=int, help='samples per train batch')
     parser.add_argument('--test-batch-size', default=100, type=int, help='samples per test batch')
