@@ -21,5 +21,4 @@ If you find this repository or associated paper useful in your research, please 
 ```
 
 TODO:
-* Currently saving entire models instead of state dict for legacy reasons (note this currently means you must load model in same directory as models.py)
 * Add models
